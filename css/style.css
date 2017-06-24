@@ -1,0 +1,53 @@
+* {
+	font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+.large {
+	font-size: 300% !important;
+	line-height: normal !important;
+}
+
+.green {
+	color: green !important;
+}
+
+.splash-screen {
+	background-image: url("../movsmart-transparency.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+body {
+	margin: 0px auto;
+	background-color: #222;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 320px;
+}
+
+.content-padding {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.content_text {
+	font-weight: bold;
+	font-size: 5em;
+	color: #fff;
+}
+
+#contentArea {
+	color: #8be3d1;
+}
